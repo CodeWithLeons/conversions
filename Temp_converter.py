@@ -1,6 +1,5 @@
 # Temperature Converter
-# This temperature Converter Python Script does a 2 way conversion between Celsius and Fahrenheit and vice versa.
-
+# This temperature Converter Python Script does a 2 way conversion between Celsius and Fahrenheit and Kelvin. 
 
 def input_temp(prompt):
     while True:
@@ -87,3 +86,4 @@ while True:
 
 
     print("\n")
+
