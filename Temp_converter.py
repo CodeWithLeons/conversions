@@ -1,4 +1,6 @@
 # Temperature Converter
+# This temperature Converter Python Script does a 2 way conversion between Celsius and Fahrenheit and vice versa.
+
 
 def input_temp(prompt):
     while True:
@@ -82,5 +84,6 @@ while True:
             fahrenheit = (celsius * 9 / 5) + 32
             fahrenheit = round(fahrenheit, 1)
             print(kelvin, "K =", fahrenheit, "F")
+
 
     print("\n")
